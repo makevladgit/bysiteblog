@@ -1,0 +1,13 @@
+{% load staticfiles %}
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{% static "static/css/foundation.css" %}">
+</head>
+
+<body>
+<h1><a href="/">MY BLOG</a></h1>
+<div class="row">
+{%block article%}{%endblock%}
+</div>
+</body>
+</html>
