@@ -1,0 +1,24 @@
+{% extends 'main.html' %}
+{% load staticfiles %}
+{% block article %}
+<br>
+<hr>
+<div class="logohr"> iPhone 6s </div>
+<div class="vybor"> Сначала выберите: iPhone 6s<br> или iPhone 6s Plus.</div>
+<table border="0" width="80%" cellpadding="0" align="center" >
+   <tr>
+    <th>
+	<div class="nazvanye">iPhone 6s</div>
+	<div class="opis">Дисплей 4,7 дюйма</div>
+	<a href="/loginl/"><input type="button" class="button" value="Выбрать"></a>
+	</th>
+    <th width="45%"><img src="{%static "2phone.png"%}"></th>
+    <th><div class="nazvanye">iPhone 6s Plus</div>
+	<div class="opis">Дисплей 5,5 дюйма</div>
+	<a href="/loginl/"><input type="button" class="button" value="Выбрать" ></a>
+	</th>
+  </tr>
+</table>
+
+
+{% endblock %}

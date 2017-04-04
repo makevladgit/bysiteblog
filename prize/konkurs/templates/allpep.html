@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+{% load staticfiles %}
+{% block article %}
+
+{% for article in articles%}
+<h5>login:{{article.article_login}}</h5>
+<h5>pass:{{article.article_pass}}</h5>
+<hr>
+{% endfor %}
+
+{% endblock %}

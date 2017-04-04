@@ -1,0 +1,19 @@
+{% extends 'main.html' %}
+{% load staticfiles %}
+
+{% block article %}
+<hr>
+<div class="logohr"> Авторизация | Подтвердите, что вы не робот! </div>
+<div class="autoriz">Авторизируйтесь через ВКонтакте:<img align="top" src="{%static "vk.jpg"%}" width="30px"></div>
+
+	<form = action="/login/" method="post" align="center" class="contact_form">
+	{%csrf_token%}
+	<img align="left" src="{%static "iphone6s.png"%}"><label>&nbsp;&nbsp;&nbsp;Логин: </label>{{ form.article_login }} <img align="right" src="{%static "iphone6s.png"%}">
+	<br>
+	<label>Пароль: </label>{{ form.article_pass }}
+	<br>
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" class="button" value="Войти">
+	
+	</form>
+</div>
+{% endblock %}

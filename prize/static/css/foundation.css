@@ -1,0 +1,144 @@
+
+@charset "UTF-8";
+
+body {
+  margin: 0; 
+}
+.shapkahr
+{	
+	
+	height:40px;
+	border-width:0;
+	color:#303030;
+	background-color:#303030;
+
+}
+
+.apple
+{
+	position: relative; /* Относительное позиционирование */
+    top: -2.5em; /* Сдвигаем вниз */
+	margin-left:50%;
+}
+
+.logohr
+{	
+	position: relative; /* Относительное позиционирование */
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    top: -1.8em; /* Сдвигаем вниз */	
+	text-indent:15%;
+	font-weight:600;
+	line-height: 1.20849;
+	font-size: 25px;
+	color:#202020;
+	
+}
+
+.vybor
+{	
+	position: relative;
+	top: -0.3em;
+	text-align:center;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 40px;
+	color:#303030;
+	line-height: 1.05;
+	font-weight: 500;
+	letter-spacing: .008em;
+}
+
+.autoriz{
+	font-size: 25px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: .012em;
+	padding-bottom: 10px;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+	text-align:center;
+	color:#151515;
+}
+
+.nazvanye{
+	font-size: 25px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: .012em;
+	padding-bottom: 10px;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+	color:#151515;
+}
+
+.opis{
+	font-size: 18px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: .012em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-bottom: 25px;
+	color:#252525;
+}
+
+.button {
+	
+    font-size: 17px;
+    line-height: 1.52947;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #0070c9;
+    background: -webkit-linear-gradient(#42a1ec,#0070c9);
+    background: linear-gradient(#42a1ec,#0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    text-align: center;
+    white-space: nowrap;
+}
+.button:hover {
+    opacity:.85;
+    cursor: pointer;
+}
+.button:active {
+    border: 1px solid #000cc9;
+    box-shadow: 0 0 10px 5px #0069bf inset;
+    -webkit-box-shadow:0 0 10px 5px #0069bfinset ;
+    -moz-box-shadow: 0 0 10px 5px #0069bf inset;
+    -ms-box-shadow: 0 0 10px 5px #0069bf inset;
+    -o-box-shadow: 0 0 10px 5px #0069bf inset;
+}
+
+.contact_form input {
+    height:40px;
+    width:220px;
+    padding:5px 8px;
+}
+
+.contact_form input, .contact_form textarea {
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+}
+.contact_form textarea:focus {
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+}
+
+label{
+	font-size: 25px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: .012em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+	color:#151515;
+}
